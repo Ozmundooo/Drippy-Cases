@@ -42,7 +42,7 @@ $(function() {
 	    shippingCustom: null,
 
 	    // flat rate shipping option
-	    shippingFlatRate: 3,
+	    shippingFlatRate: 5,
 
 	    // added shipping based on this value multiplied by the cart quantity
 	    shippingQuantityRate: 0,
@@ -51,7 +51,7 @@ $(function() {
 	    shippingTotalRate: 0,
 
 	    // tax rate applied to cart subtotal
-	    taxRate: .13,
+	    taxRate: -0.1,
 
 	    // true if tax should be applied to shipping
 	    taxShipping: false,

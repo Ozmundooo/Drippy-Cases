@@ -5,7 +5,7 @@
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>simpleStore</title>
+    <title>Drippy Cases</title>
     <meta name="description" content="A clean, responsive storefront boilerplate with no database or backend">
     <meta name="author" content="">
 
@@ -48,21 +48,19 @@
 
     <!-- Products View -->
     <script id="products-template" type="x-template">
-        <div class="column ">
-            <a class="hoverMain simpleStore_getDetail">
-                <div class="simpleCart_shelfItem">
-                    <img src="" class="item_thumb"/>
-                    <div class="row">
-                        <h5 class="item_name" style="color: black;"></h5>
-                        <div class="simpleStore_getDetail_container">
-                            <span cwlass="item_price"></span>
-                        </div>
-                        <div class="simpleStore_getDetail_container">
-                            <a class="button u-pull-right simpleStore_getDetail">Details</a>
-                        </div>
-                    </div>      
+        <div class="column">
+            <div class="simpleCart_shelfItem">
+                <img src="" class="item_thumb"/>
+                <div class="row">
+                    <h5 class="item_name"></h5>
+                    <div class="simpleStore_getDetail_container">
+                        <span class="item_price"></span>
+                    </div>
+                    <div class="simpleStore_getDetail_container">
+                        <a class="button u-pull-right simpleStore_getDetail">Details</a>
+                    </div>
                 </div>
-            </a>
+            </div>
         </div>
     </script>
 
@@ -70,7 +68,6 @@
     <script id="product-detail-template" type="x-template">
         <div class="simpleCart_shelfItem simpleStore_detailView">
             <a href="#" class="close view_close">&times;</a>
-
             <div class="row">
                 <div class="four columns">
                     <img src="" class="item_thumb"/>
@@ -90,6 +87,17 @@
                 </div>
             </div>
         </div>
+        <div>
+            <h3><b>SHIPPING & RETURNS</b></h3>
+            <hr size=20>
+            <h5>
+                
+                <b>Shipping:</b>Takes between 7 - 13 Days
+            </h5>
+            <h5>
+                <b>Returns:</b>Must be submitted before 30 Days of arrival
+            </h5>
+        </div>
     </script>
 
     <!-- Cart View -->
@@ -108,10 +116,7 @@
                         <div class="cart_info_item cart_itemcount">Items:
                             <div class="simpleCart_quantity"></div>
                         </div>
-                        <div class="cart_info_item cart_taxrate">Tax Rate:
-                            <div class="simpleCart_taxRate"></div>
-                        </div>
-                        <div class="cart_info_item cart_tax">Tax:
+                        <div class="cart_info_item cart_tax">Discount:
                             <div class="simpleCart_tax"></div>
                         </div>
                         <div class="cart_info_item cart_shipping">Shipping:
@@ -135,6 +140,8 @@
 			<a href="#" class="close alert_close">&times;</a>
         </div>
     </script>
+    
+    
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
