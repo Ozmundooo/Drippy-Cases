@@ -19,7 +19,7 @@ $(function() {
 	    // how simpleCart should checkout, see the checkout reference for more info
 	    checkout: {
 	        type: "PayPal" ,
-	        email: "tfw_123@outlook.com"
+	        email: "drippycasesmain@gmail.com"
 	    },
 
 	    // set the currency, see the currency reference for more info
@@ -42,7 +42,7 @@ $(function() {
 	    shippingCustom: null,
 
 	    // flat rate shipping option
-	    shippingFlatRate: 5,
+	    shippingFlatRate: 0,
 
 	    // added shipping based on this value multiplied by the cart quantity
 	    shippingQuantityRate: 0,

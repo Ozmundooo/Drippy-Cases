@@ -1,9 +1,19 @@
 #brand{
-    color:;
+    color:black;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: brandFont;
     
 }
 .a:hover #brand{
     opacity: 75% ;  
+}
+border{
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    border: 2px solid #E8E8E8;
+}
+@font-face {
+    font-family: brandFont;
+    src: url(font/Painting_With_Chocolate.ttf);
 }
