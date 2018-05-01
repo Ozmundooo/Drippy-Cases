@@ -10,21 +10,21 @@
 			"description" : " "
 		},
 		{
-			"name" : "Blue Champion Case",
-			"price" : "15.99",
-			"options" : [
-				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
-			],
-			"image" : "img/Champion/Regular-Champion-Blue.png",
-			"description" : " "
-		},
-        {
 			"name" : "Bape Army Green Case",
 			"price" : "15.99",
 			"options" : [
 				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
 			],
 			"image" : "img/Bape/ArmyBape.png",
+			"description" : " "
+		},
+		{
+			"name" : "Blue Champion Case",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
+			],
+			"image" : "img/Champion/Regular-Champion-Blue.png",
 			"description" : " "
 		},
         {
