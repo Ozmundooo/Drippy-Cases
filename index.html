@@ -5,7 +5,7 @@
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Drippy Cases</title>
+    <title>simpleStore</title>
     <meta name="description" content="A clean, responsive storefront boilerplate with no database or backend">
     <meta name="author" content="">
 
@@ -22,7 +22,7 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/imports.min.css">
     <link rel="stylesheet" href="css/simpleStore.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -32,13 +32,13 @@
 
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container simpleStore" >
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand" id="brand" href="#">Drippy Cases</a>
+    <div class="container simpleStore">
+        <div class="row">
+            <a class="brand" href="#"></a>
             <a class="button button-primary u-pull-right simpleStore_viewCart">
-                <i class="fa fa-shopping-cart border"></i> Cart <span class="simpleCart_total"></span>
+                <i class="fa fa-shopping-cart"></i> Cart <span class="simpleCart_total"></span>
             </a>
-        </nav>
+        </div>
         <div class="simpleStore_container"></div>
         <div class="simpleStore_cart_container"></div>
     </div>
@@ -54,7 +54,7 @@
                 <div class="row">
                     <h5 class="item_name"></h5>
                     <div class="simpleStore_getDetail_container">
-                        <span>$</span><span class="item_price"></span>
+                        <span class="item_price"></span>
                     </div>
                     <div class="simpleStore_getDetail_container">
                         <a class="button u-pull-right simpleStore_getDetail">Details</a>
@@ -68,6 +68,7 @@
     <script id="product-detail-template" type="x-template">
         <div class="simpleCart_shelfItem simpleStore_detailView">
             <a href="#" class="close view_close">&times;</a>
+
             <div class="row">
                 <div class="four columns">
                     <img src="" class="item_thumb"/>
@@ -75,9 +76,9 @@
                 <div class="eight columns">
                     <h5 class="item_name"></h5>
 
-                    <p></p>
+                    <p class="item_description"></p>
                     <span class="item_price"></span>
-                    
+
                     <div class="qty">
                         <label>QTY</label>
                         <input type="number" value="1" min="1" step="1" class="item_Quantity">
@@ -86,17 +87,6 @@
                     <a class="item_add button u-pull-right" href="javascript:;">Add to Cart</a>
                 </div>
             </div>
-        </div>
-        <div>
-            <h3><b>SHIPPING & RETURNS</b></h3>
-            <hr size=20>
-            <h5>
-                
-                <b>Shipping:</b>Takes between 7 - 13 Days
-            </h5>
-            <h5>
-                <b>Returns:</b>Must be submitted before 30 Days of arrival
-            </h5>
         </div>
     </script>
 
@@ -116,7 +106,10 @@
                         <div class="cart_info_item cart_itemcount">Items:
                             <div class="simpleCart_quantity"></div>
                         </div>
-                        <div class="cart_info_item cart_tax">Discount:
+                        <div class="cart_info_item cart_taxrate">Tax Rate:
+                            <div class="simpleCart_taxRate"></div>
+                        </div>
+                        <div class="cart_info_item cart_tax">Tax:
                             <div class="simpleCart_tax"></div>
                         </div>
                         <div class="cart_info_item cart_shipping">Shipping:
@@ -140,8 +133,6 @@
 			<a href="#" class="close alert_close">&times;</a>
         </div>
     </script>
-    
-    
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
