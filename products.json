@@ -19,6 +19,15 @@
 			"description" : " "
 		},
 		{
+			"name" : "Air Jordan Case",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
+			],
+			"image" : "img/Jordan/Black-Red-Jordan.png",
+			"description" : " "
+		},
+		{
 			"name" : "Blue Champion Case",
 			"price" : "15.99",
 			"options" : [
@@ -45,6 +54,15 @@
 			"image" : "img/Bape/RedBape.png",
 			"description" : " "
 		},
+		{
+			"name" : "Black and White Air Jordan Case",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
+			],
+			"image" : "img/Jordan/Black-White-Jordan.png",
+			"description" : " "
+		},
         {
 			"name" : "Bape Army Blue Case",
 			"price" : "20.99",
@@ -52,6 +70,15 @@
 				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
 			],
 			"image" : "img/Bape/BlueBape.png",
+			"description" : " "
+		},
+		{
+			"name" : "Red and White Air Jordan Case",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
+			],
+			"image" : "img/Jordan/Red-White-Jordan.png",
 			"description" : " "
 		}
 	]
