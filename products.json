@@ -1,33 +1,58 @@
 {
 	"products" : [
 		{
-			"name" : "Awesome T-shirt",
-			"price" : "35.99",
-			"options" : [
-				{ "Size" : "Small,Medium,Large" }
-			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
-			"description" : "This is a very awesome grey T-shirt"
-		},
-		{
-			"name" : "Cool T-shirt",
+			"name" : "Champion Black Case",
 			"price" : "15.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" },
-				{ "Color" : "Blue,Red" },
-			    { "OneOfAKind" : true }
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg",
-			"description" : "This is a really cool blue T-shirt"
+			"image" : "img/Champion/BlackChampionText.png",
+			"description" : " "
 		},
 		{
-			"name" : "Fun T-shirt",
+			"name" : "Blue Champion Case",
 			"price" : "15.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
-			"description" : "This is another fun grey T-shirt"
+			"image" : "img/Champion/Regular-Champion-Blue.png",
+			"description" : " "
+		},
+        {
+			"name" : "Bape Army Green Case",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
+			],
+			"image" : "img/Bape/ArmyBape.png",
+			"description" : " "
+		},
+        {
+			"name" : "Red Champion Textured Case",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
+			],
+			"image" : "img/Champion/RedChampionText.png",
+			"description" : " "
+		},
+        {
+			"name" : "Bape Army Red Case",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
+			],
+			"image" : "img/Bape/RedBape.png",
+			"description" : " "
+		},
+        {
+			"name" : "Bape Army Blue Case",
+			"price" : "15.99",
+			"options" : [
+				{ "Size" : "iPhone 6/6s,iPhone 6Plus/s6Plus,iPhone 7,iPhone 7Plus,iPhone 8,iPhone 8Plus,iPhone X " }
+			],
+			"image" : "img/Bape/BlueBape.png",
+			"description" : " "
 		}
 	]
 }

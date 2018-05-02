@@ -19,7 +19,7 @@ $(function() {
 	    // how simpleCart should checkout, see the checkout reference for more info
 	    checkout: {
 	        type: "PayPal" ,
-	        email: "you@yours.com"
+	        email: "drippycasesmain@gmail.com"
 	    },
 
 	    // set the currency, see the currency reference for more info
@@ -51,7 +51,7 @@ $(function() {
 	    shippingTotalRate: 0,
 
 	    // tax rate applied to cart subtotal
-	    taxRate: 0,
+	    taxRate: -0.1,
 
 	    // true if tax should be applied to shipping
 	    taxShipping: false,
@@ -73,7 +73,7 @@ $(function() {
 	simpleStore.init({
 
 		// brand can be text or image URL
-		brand : "SimpleStore",
+		brand : "Drippy Cases",
 
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,
