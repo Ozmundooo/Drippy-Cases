@@ -19,7 +19,7 @@ $(function() {
 	    // how simpleCart should checkout, see the checkout reference for more info
 	    checkout: {
 	        type: "PayPal" ,
-	        email: "drippycasesmail@gmail.com"
+	        email: "drippycasesmain@gmail.com"
 	    },
 
 	    // set the currency, see the currency reference for more info
