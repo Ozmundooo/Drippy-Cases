@@ -34,7 +34,6 @@ $(function() {
 
 	    // array of item fields that will not be sent to checkout
 	    excludeFromCheckout: [
-	    	'qty',
 	    	'thumb'
 	    ],
 
