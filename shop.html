@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Drippy Cases</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" href="css/imports.min.css">
+    <link rel="stylesheet" href="css/simpleStore.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="shipBar">
+        Free Shipping only in USA and Canada
+    </div>
+    <div class="container simpleStore" >
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" id="brand" href="index.html">Drippy Cases</a>
+            <a class="button button-primary u-pull-right simpleStore_viewCart">
+                <i class="fa fa-shopping-cart border"></i> Cart <span class="simpleCart_total"></span>
+            </a>
+        </nav>
+        <div class="simpleStore_container"></div>
+        <div class="simpleStore_cart_container"></div>
+        
+    </div>
+    
+
+    <!-- Templates
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+    <!-- Products View -->
+    <script id="products-template" type="x-template">
+
+        <div class="column">
+            <div class="simpleCart_shelfItem">
+                <img src="" class="item_thumb"/>
+                <div class="row">
+                    <h5 class="item_name"></h5>
+                    <div class="simpleStore_getDetail_container">
+                        <span>$</span><span class="item_price"></span>
+                    </div>
+                    <div class="simpleStore_getDetail_container">
+                        <a class="button u-pull-right simpleStore_getDetail">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- Product Detail View -->
+    <script id="product-detail-template" type="x-template">
+        <div class="simpleCart_shelfItem simpleStore_detailView">
+            <a href="#" class="close view_close">&times;</a>
+            <div class="row">
+                <div class="four columns">
+                    <img src="" class="item_thumb"/>
+                </div>
+                <div class="eight columns">
+                    <h5 class="item_name"></h5>
+
+                    <p></p>
+                    <span class="item_price"></span>
+                    
+                    <div class="qty">
+                        <label>QTY</label>
+                        <input type="number" value="1" min="1" step="1" class="item_Quantity">
+                    </div>
+                    <div class="simpleStore_options"></div>
+                    <a class="item_add button u-pull-right" href="javascript:;">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <hr size=20>
+        <h3><b>SHIPPING & RETURNS</b></h3>
+        <h5><b>PROCESSING & SHIPPING TIMES</b></h5>
+        <p>We only process and ship out orders from Mondays-Friday. Once you place your order it should take 1~4 business days to be processed, and you will receive an email with the tracking number soon after. E-packet is our primary carrier for U.S, UK, CA and AUS customers, Depending on where you live, packages are delivered within 3~21 days from the date of shipment.</p>
+        <p>PLEASE NOTE: Shipping times to the UK, AUS & CA can sometimes take up to 5 weeks before being delivered. Reason being, customs takes longer to process and clear foreign packages.</p>
+        <h5><b>OUT OF STOCK/BACKORDERED ITEMS</b></h5>
+        <p>In the event that any of your items are out of stock, we will inform you by an email to let you know when we expect to have the items shipped out by. If the items are not expected to be restocked within 2 weeks, we will just automatically refund you for those items</p>
+        <h5><b>ADDRESS CHANGES</b></h5>
+        <p>If you believe the address the item is being shipped to is incorrect please inform us by email(<a href="mailto:drippycasesmail@gmail.com">drippycasesmail@gmail.com</a>) as soon as possible.</p>
+        
+        <h6><b>NOTE: To all customers that provided a different shipping address than their permanent address, we will not be responsible for lost or undelivered parcels and/or if you moved out of the address you provided us.
+        NOTE: Returns cannot be processed until AFTER packages says delivered. In our return policy we can offer you either a refund or exchange.</b><h6>
+    </script>
+
+    <!-- Cart View -->
+    <script id="cart-template" type="x-template">
+        <div class="simpleStore_cart">
+            <h2>Cart</h2>
+            <a href="#" class="close">&times;</a>
+
+            <div class="row">
+                <div class="eight columns">
+                    <div class="simpleCart_items"></div>
+                    <a href="javascript:;" class="simpleCart_empty u-pull-left">Empty Cart <i class="fa fa-trash-o"></i></a>
+                </div>
+                <div class="four columns">
+                    <div class="cart_info">
+                        <div class="cart_info_item cart_itemcount">Items:
+                            <div class="simpleCart_quantity"></div>
+                        </div>
+                        <div class="cart_info_item cart_tax">Discount:
+                            <div class="simpleCart_tax"></div>
+                        </div>
+                        <div class="cart_info_item cart_shipping">Shipping:
+                            <div class="simpleCart_shipping"></div>
+                        </div>
+                        <div class="cart_info_item cart_total"><b>Total:
+                            <div class="simpleCart_grandTotal"></div>
+                        </b></div>
+                        <a href="javascript:;" class="button button-primary simpleStore_checkout u-pull-right">Checkout <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- Error View -->
+    <script id="error-template" type="x-template">
+        <div class="error">
+            <b>Sorry, something went wrong :(</b>
+			<p class="error_text"></p>
+			<a href="#" class="close alert_close">&times;</a>
+        </div>
+    </script>
+    
+    <footer class="footer-distributed">
+			<div class="footer-left">
+				<a id="footerLogo" href="#">Drippy Cases</a>
+				<p class="footer-links">
+					<a href="#"></a>
+				</p>
+				<p class="footer-company-name">Drippy Cases &copy; 2018</p>
+			</div>
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:drippycasesmail@gmail.com">drippycasesmail@gmail.com</a></p>
+				</div>
+			</div>
+
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the Drippy Cases</span>
+					Our wish is to provide our customers with the most trendy HYPEBEAST iPhone Cases.
+				</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/drippy_cases/?hl=en"><i class="fa fa-twitter"></i></a>
+				</div>
+			</div>
+		</footer>
+    
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+<!-- Scripts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/simpleCart.min.js"></script>
+<script src="js/simpleStore.min.js"></script>
+
+<script src="js/config.js"></script>
+
+</html>

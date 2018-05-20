@@ -15,6 +15,13 @@
 .a:hover #brand{
     opacity: 75% ;  
 }
+#shipBar{ 
+    margin: auto;
+    background-color: gray;
+    text-align: center;  
+    width: 61%;
+    border-radius: 3%;
+}
 border{
     background-color: #F8F8F8;
     border-radius: 3px;
